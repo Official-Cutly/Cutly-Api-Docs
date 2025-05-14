@@ -50,19 +50,3 @@ GET /:urlCode
 #### Response
 
 Redirects to the long URL associated with the short URL
-
-### Update the expiry date of a short URL
-
-```
-
-| Parameter   | Type     | Description                                                |
-| :---------- | :------- | :--------------------------------------------------------- |
-| `shortUrl`  | `string` | **Required**. The short URL to be updated                  |
-
-#### Response
-
-```json
-{
-  "success": true
-}
-```
